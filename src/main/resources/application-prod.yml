@@ -1,10 +1,14 @@
 # DataSource Config
+server:
+  port: 8080
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://106.54.192.192:13307/user_center
+    url: jdbc:mysql://192.168.2.20:3306/usercenter
     username: usercenter
-    password: vdxhjd@!fasg12e3
+    password: yZbzaCZncSAhDwPC
     #session生效时间
+
   session:
     timeout: 86400
+
