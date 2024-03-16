@@ -35,47 +35,68 @@ class UserServiceTest {
     @Test
     void userRegister(){
 
-        String userAccount="caocao";
+        String userAccount="caoc6dao";
         String userPassword="123456789";
         String checkPassword="123456789";
-        String planetCode="1";
+        String planetCode="18";
         long result= userService.userRegister(userAccount,userPassword,checkPassword,planetCode);
-        Assertions.assertEquals(-1,result);
+        Assertions.assertTrue(result>0);
 
-        userAccount="yu";
-        userPassword="123456";
-        checkPassword="123456";
-        result =userService.userRegister(userAccount,userPassword,checkPassword,planetCode);
-        Assertions.assertEquals(-1,result);
-
-        userAccount="yupi";
-        userPassword="123456";
-        checkPassword="123456";
-        result =userService.userRegister(userAccount,userPassword,checkPassword,planetCode);
-        Assertions.assertEquals(-1,result);
-
-        userAccount="yu545";
-        userPassword="123456";
-        checkPassword="123456";
-        result =userService.userRegister(userAccount,userPassword,checkPassword,planetCode);
-        Assertions.assertEquals(-1,result);
-
-        userAccount="yu65445";
-        userPassword="123456";
-        checkPassword="123456321";
-        result =userService.userRegister(userAccount,userPassword,checkPassword,planetCode);
-        Assertions.assertEquals(-1,result);
-
-        userAccount="yu78pi";
-        userPassword="123456";
-        checkPassword="123456";
-        result =userService.userRegister(userAccount,userPassword,checkPassword,planetCode);
-        Assertions.assertEquals(-1,result);
-
-        userAccount="wangping";
+        userAccount="yu6fds8ta";
         userPassword="123456789";
         checkPassword="123456789";
-        planetCode="2";
+        planetCode="218";
+        result =userService.userRegister(userAccount,userPassword,checkPassword,planetCode);
+        Assertions.assertTrue(result>0);
+
+        userAccount="yupd6si";
+        userPassword="123456789";
+        checkPassword="123456789";
+        planetCode="847";
+        result =userService.userRegister(userAccount,userPassword,checkPassword,planetCode);
+        Assertions.assertTrue(result>0);
+
+        userAccount="yu5465";
+        userPassword="123456789";
+        planetCode="115";
+        result =userService.userRegister(userAccount,userPassword,checkPassword,planetCode);
+        Assertions.assertTrue(result>0);
+
+        userAccount="yu656445";
+        userPassword="123456789";
+        planetCode="86";
+        result =userService.userRegister(userAccount,userPassword,checkPassword,planetCode);
+        Assertions.assertTrue(result>0);
+
+        userAccount="yu7856pi";
+        userPassword="123456789";
+        checkPassword="123456789";
+        planetCode="45";
+        result =userService.userRegister(userAccount,userPassword,checkPassword,planetCode);
+        Assertions.assertTrue(result>0);
+
+        userAccount="wangpie6wrng";
+        userPassword="123456789";
+        checkPassword="123456789";
+        planetCode="765";
+        result =userService.userRegister(userAccount,userPassword,checkPassword,planetCode);
+        Assertions.assertTrue(result>0);
+        userAccount="waengp6ieng";
+        userPassword="123456789";
+        checkPassword="123456789";
+        planetCode="123";
+        result =userService.userRegister(userAccount,userPassword,checkPassword,planetCode);
+        Assertions.assertTrue(result>0);
+        userAccount="wangp6ieng";
+        userPassword="123456789";
+        checkPassword="123456789";
+        planetCode="136";
+        result =userService.userRegister(userAccount,userPassword,checkPassword,planetCode);
+        Assertions.assertTrue(result>0);
+        userAccount="wangp6ireng";
+        userPassword="123456789";
+        checkPassword="123456789";
+        planetCode="145";
         result =userService.userRegister(userAccount,userPassword,checkPassword,planetCode);
         Assertions.assertTrue(result>0);
 

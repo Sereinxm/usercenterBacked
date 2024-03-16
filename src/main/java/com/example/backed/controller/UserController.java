@@ -27,6 +27,7 @@ import static com.example.backed.constant.UserConstant.USER_LOGIN_STATE;
  * @author cao
  */
 @RestController
+@CrossOrigin(origins = { "http://106.54.192.192:16559"},allowCredentials = "true")
 @RequestMapping("/user")
 public class UserController {
     @Resource
@@ -115,7 +116,6 @@ public class UserController {
 
     /**
      * 是否为管理员
-     *
      * @param request
      * @return
      */
